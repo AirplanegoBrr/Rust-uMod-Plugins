@@ -21,8 +21,8 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 namespace Oxide.Plugins {
-    [Info("AACustomPlugin", "AirplaneGobrr", "0.0.1")]
-    [Description("Custom Plugin for DCR")]
+    [Info("AAcuiTest", "AirplaneGobrr", "0.0.1")]
+    [Description("Testing plugin")]
     class AACustomPlugin: RustPlugin {
         private Dictionary < ulong, string > playerTabs = new Dictionary < ulong, string > ();
 
